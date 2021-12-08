@@ -1,0 +1,85 @@
+.listings{
+    margin: 2rem 3rem;
+}
+
+.train-list{
+    border-radius:20px;
+    height: 40vh;
+}
+
+.table-heads{
+    background-color: rgb(192, 191, 191);
+    font-size: 11px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 5vh;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.table-heads.div{
+    justify-content: center;
+}
+
+.train-card{
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.card-upper-col{
+    padding: 1rem 1rem;
+}
+
+.number-name{
+    display:flex;
+}
+
+.train-number{
+    border: 1px rgb(209, 206, 206) solid;
+    height:30px;
+    padding: 3px 3px;
+    border: 1px rgb(29, 121, 158) solid;
+    background-color: rgb(154, 220, 247);
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.train-name{
+    font-weight: 600;
+}
+
+.card-lower{
+    padding: 1rem 1rem;
+}
+
+.coach-type{
+    border: 1px rgb(125, 210, 243) solid;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    font-size: 12px;
+    
+}
+
+.filter-bar{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.filter-head{
+    height:5vh;
+    border-bottom: 1px solid grey;
+    background-color: rgb(196, 189, 189);
+}
+
+
+.label{
+    color:rgb(167, 167, 167);
+    font-size: 12px;
+}
+
+.timings{
+    text-align: right;
+}
