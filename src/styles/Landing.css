@@ -1,0 +1,44 @@
+.general {
+  background: url("../images/bg.png"), 
+    linear-gradient(
+      61deg,
+      rgba(248, 146, 196, 1) 19%,
+      rgba(250, 199, 164, 1) 78%
+    );
+  height: 100vh;
+  background-size: 80%, 100%;
+  background-repeat: no-repeat;
+  background-position-x: 8.1cm, 0;
+  background-position-y: 2cm, 0;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.buttons {
+  color: #ffffff;
+  height: 100%;
+  position: absolute;
+  left: 8%;
+  top: 50%;
+}
+
+.login {
+  margin: 0 10px;
+  border-radius: 25px;
+  padding: 14px 40px;
+}
+
+.signup {
+  border-radius: 25px;
+  padding: 14px 35px;
+}
+
+/* .butt {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  justify-content: center;
+} */

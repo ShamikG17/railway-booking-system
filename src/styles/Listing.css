@@ -1,10 +1,18 @@
+body{
+    background: linear-gradient(
+      61deg,
+      rgb(226, 249, 255) 19%,
+      rgb(215, 224, 226) 78%
+    );
+}
+
 .listings{
     margin: 2rem 3rem;
 }
 
 .train-list{
     border-radius:20px;
-    height: 40vh;
+
 }
 
 .table-heads{
@@ -59,19 +67,29 @@
     padding: 0.5rem 1rem;
     margin-right: 1rem;
     font-size: 12px;
-    
+}
+
+.coach-type:hover{
+    background-color: rgb(187, 230, 247) ;
 }
 
 .filter-bar{
     border: 1px solid black;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 0 0 5px 0;
 }
 
 .filter-head{
     height:5vh;
     border-bottom: 1px solid grey;
     background-color: rgb(196, 189, 189);
+
+}
+
+.filter-head{
+    padding: 0 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 
@@ -83,3 +101,11 @@
 .timings{
     text-align: right;
 }
+
+.dep-filter,.arr-filter,.fare-classes{
+    padding: 0 5px;
+}
+
+/* .color{
+    background-color: rgb(214, 240, 250) ;
+} */

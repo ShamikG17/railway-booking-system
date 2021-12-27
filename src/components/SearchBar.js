@@ -1,10 +1,11 @@
 import React from "react";
-import "../styles/Home.css";
+import "../styles/SearchBar.css";
+import { Link } from "react-router-dom";
 
-const Home = () => {
+const SearchBar = () => {
   return (
     <>
-      <div className="search-form m-auto align-middle">
+      <div className="search-form align-middle">
         <div className="form-input">
           <label htmlFor="location">From</label>
           <input className="input" type="text" />
@@ -19,11 +20,13 @@ const Home = () => {
           <input className="input" type="date" />
         </div>
         <button className="search-btn d-flex align-self-center">
-          Search <i class="fas fa-search"></i>
+          <Link to="/listing">
+            Search <i class="fas fa-search"></i>
+          </Link>
         </button>
       </div>
     </>
   );
 };
 
-export default Home;
+export default SearchBar;
